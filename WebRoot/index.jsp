@@ -8,7 +8,7 @@
 int counter = 10; 
 %>  
 <c:if test="${counter%2==1}">  
-<c:set var="isOdd" value="true"></c:set> 
+<c:set var="isOdd" value="true"> </c:set> 
 </c:if> 
 <c:choose>  
 <c:when test="${isOdd==true}">
