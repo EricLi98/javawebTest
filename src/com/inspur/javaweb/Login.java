@@ -50,6 +50,7 @@ public class Login extends HttpServlet {
 		out.println("</HTML>");
 		out.flush();
 		out.close();
+		
 	}
 
 	/**
